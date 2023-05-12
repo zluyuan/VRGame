@@ -1,0 +1,169 @@
+[
+  {
+    "__type__": "cc.Prefab",
+    "_name": "Plane Tracking",
+    "_objFlags": 0,
+    "_native": "",
+    "data": {
+      "__id__": 1
+    },
+    "optimizationPolicy": 0,
+    "persistent": false
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "Plane Tracking",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "_parent": null,
+    "_children": [],
+    "_active": true,
+    "_components": [
+      {
+        "__id__": 2
+      }
+    ],
+    "_prefab": {
+      "__id__": 8
+    },
+    "_lpos": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_lrot": {
+      "__type__": "cc.Quat",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "w": 1
+    },
+    "_lscale": {
+      "__type__": "cc.Vec3",
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "_mobility": 0,
+    "_layer": 1073741824,
+    "_euler": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_id": ""
+  },
+  {
+    "__type__": "1a3c2iECT1I0ZSWBKxOF6Z4",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 1
+    },
+    "_enabled": true,
+    "__prefab": {
+      "__id__": 3
+    },
+    "_trackingType": 8,
+    "_trackEvent": null,
+    "factors": [
+      {
+        "__id__": 4
+      },
+      {
+        "__id__": 5
+      }
+    ],
+    "actions": [
+      {
+        "__id__": 6
+      },
+      {
+        "__id__": 7
+      }
+    ],
+    "menuFactors": [
+      1,
+      2,
+      3
+    ],
+    "menuActions": [
+      2,
+      3,
+      1,
+      4,
+      5
+    ],
+    "initialized": true,
+    "dependOnFactorOrAction": true,
+    "_planeDirection": {
+      "__id__": 4
+    },
+    "_planeSize": {
+      "__id__": 5
+    },
+    "_planeSemantic": null,
+    "_display": {
+      "__id__": 6
+    },
+    "_surfaceOverlay": null,
+    "_alignment": {
+      "__id__": 7
+    },
+    "_adaptiveScale": null,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.CompPrefabInfo",
+    "fileId": "4euGYSgTRNvqAxHMOYBh38"
+  },
+  {
+    "__type__": "cc.ARPlaneDirection",
+    "_uuid": "0dnCMkBJ1JJZJzUmJMymNd",
+    "_directionType": 7
+  },
+  {
+    "__type__": "cc.ARPlaneSize",
+    "_uuid": "0dnCMkBJ1JJZJzUmJMymNd",
+    "_useMinSize": true,
+    "_useMaxSize": false,
+    "_minSize": {
+      "__type__": "cc.Vec2",
+      "x": 0.5,
+      "y": 0.5
+    },
+    "_maxSize": {
+      "__type__": "cc.Vec2",
+      "x": 1.5,
+      "y": 1.5
+    }
+  },
+  {
+    "__type__": "cc.ARDisplayChildren",
+    "_displayChildrenNode": true,
+    "_stopTracking": false,
+    "_resetWhenLoss": true
+  },
+  {
+    "__type__": "cc.ARAlignment",
+    "_matchTrackingUpdate": true,
+    "closeTracking": false,
+    "_layout": 0,
+    "_towards": 1,
+    "_faceToCamera": false
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "root": {
+      "__id__": 1
+    },
+    "asset": {
+      "__id__": 0
+    },
+    "fileId": "c46/YsCPVOJYA4mWEpNYRx",
+    "instance": null,
+    "targetOverrides": null
+  }
+]

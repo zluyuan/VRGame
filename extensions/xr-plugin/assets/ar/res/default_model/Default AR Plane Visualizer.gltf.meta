@@ -1,0 +1,57 @@
+{
+  "ver": "2.3.3",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "546c9081-6e92-4fbb-9f13-a4f9c49b55d6",
+  "files": [],
+  "subMetas": {
+    "eae54": {
+      "importer": "gltf-mesh",
+      "uuid": "546c9081-6e92-4fbb-9f13-a4f9c49b55d6@eae54",
+      "displayName": "",
+      "id": "eae54",
+      "name": "AR Plane.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "fbca6": {
+      "importer": "gltf-scene",
+      "uuid": "546c9081-6e92-4fbb-9f13-a4f9c49b55d6@fbca6",
+      "displayName": "",
+      "id": "fbca6",
+      "name": "Default AR Plane Visualizer.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "redirect": "546c9081-6e92-4fbb-9f13-a4f9c49b55d6@fbca6",
+    "assetFinder": {
+      "meshes": [
+        "546c9081-6e92-4fbb-9f13-a4f9c49b55d6@eae54"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "546c9081-6e92-4fbb-9f13-a4f9c49b55d6@fbca6"
+      ]
+    }
+  }
+}
